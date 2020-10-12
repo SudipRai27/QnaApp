@@ -10899,3 +10899,42 @@ a.text-dark:focus {
   }
 }
 
+button {
+  outline: none;
+}
+
+.counters {
+  margin-right: 1.2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.counters__vote,
+.counters__status {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.counters__status.unanswered {
+  border: none;
+}
+
+.counters__status.answered {
+  border: 1px solid #38c172;
+  color: #38c172;
+}
+
+.counters__status.answer-accepted {
+  background-color: #38c172;
+  color: #fff;
+}
+
+.counters__number {
+  margin: 0;
+}
+
+.counters__text {
+  display: block;
+  font-size: 0.9rem;
+}
+

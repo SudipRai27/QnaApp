@@ -1,0 +1,40 @@
+button {
+  outline: none;
+}
+
+.counters {
+  margin-right: 1.2rem;
+  font-size: 1rem;
+  text-align: center;
+
+  &__vote,
+  &__status {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+
+  &__status {
+    &.unanswered {
+      border: none;
+    }
+
+    &.answered {
+      border: 1px solid $green;
+      color: $green;
+    }
+
+    &.answer-accepted {
+      background-color: $green;
+      color: $white;
+    }
+  }
+
+  &__number {
+    margin: 0;
+  }
+
+  &__text {
+    display: block;
+    font-size: 0.9rem;
+  }
+}
